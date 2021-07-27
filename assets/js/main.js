@@ -11,6 +11,6 @@ const people = [
 const searchInput = document.getElementById('search');
 
 searchInput.addEventListener('input', () => {
-    console.log('input event fired');
+    console.log(event);
 });
 
